@@ -36,11 +36,13 @@ Abstraction promotes code reuse by encapsulating functionality into reusable com
 
 The three-schema architecture in DBMS (database management system) is a logical framework that separates the logical and physical aspects of a database into three distinct levels: external, conceptual, and internal. This separation provides a number of benefits, including data independence, modular development, enhanced security, improved performance, data consistency, and support for database evolution.
 
+![Alt text](Untitled.png)
+
 **External Schema / View Level**
 
 The external schema (also known as view schema) is the highest level of the three-schema architecture. It defines how individual users or groups of users see the data in the database. The external schema is tailored to the specific needs of each user or group of users, and it may hide or aggregate data from the conceptual schema.
 
-**Conceptual Schema**
+**Conceptual Schema / Logical Level**
 
 The conceptual schema (also known as global schema) describes the overall structure of the database from a logical perspective. It defines the entities, attributes, and relationships between entities in the database. The conceptual schema is independent of any specific physical implementation, and it can be used to create multiple external schemas for different users or groups of users.
 
